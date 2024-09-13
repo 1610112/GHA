@@ -1,2 +1,2 @@
 # GHA
-This is readme for basic springBoot project.
+This is readme for basic springBoot project..
