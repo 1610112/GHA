@@ -28,7 +28,7 @@ jobs:
     - name: Cache Maven packages
       uses: actions/cache@v2
       with:
-        path: ~/.m2
+        path: ~/.m2/repository
         key: ${{ runner.os }}-maven-${{ hashFiles('GHA/demo/pom.xml') }}
         restore-keys: |
           ${{ runner.os }}-maven-
